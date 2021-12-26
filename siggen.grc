@@ -224,7 +224,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/duke/Desktop/cal1
+    file: /home/user/Desktop/cal1
     type: float
     unbuffered: 'False'
     vlen: '1'
