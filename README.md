@@ -2,17 +2,22 @@
 
 My diletantic first try at making something that should work a bit like a scalar network analyzer, using a hackrf and a rtlsdr.
 Please, don't ask me about that constant source, i followed a video on youtube, i'm just happy the sweep is working.
+Mainly uploading this just to have a backup somewhere, and in case somebody finds this interesting and maybe wants to help. 
 
-I am doing all my tests for now with a Pi attenuator where all 3 resistors are 100 Ohm, which is probably not ideal, but 100 Ohm resistors are easier to get than seventy-odd Ohm non standard resistors. Seems to work ok:
+
+All the tests for now with a Pi attenuator where all 3 resistors are 100 Ohm, which is probably not ideal, but 100 Ohm resistors are easier to get than seventy-odd Ohm non standard resistors. Seems to work ok:
 
 ![image](https://user-images.githubusercontent.com/36307725/147415303-791a9968-f479-4664-9d06-b6d3b8623760.png)
 
 How To Use The Flowgraph:
 
+Disclaimer: This seems to work on my box, if you break your rtlsdr or hackrf, please don't blame me! 
+
 Adjust the output file name and path.
-Open the python module, open in editor, close again.
 Maybe check if the settings are ok for your setup. 
 Run it. It will stop recording after one sweep, but will start the sweep again at F1, so you'd need to stop the flowgraph manually.
+Or just keep staring at the time sink, that's ok.
+Change the output file name, then run it again.
 
 Once finished, go to https://wiki.gnuradio.org/index.php/Octave and follow the instructions there.
 
