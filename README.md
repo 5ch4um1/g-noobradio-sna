@@ -9,11 +9,11 @@ All the tests for now with a Pi attenuator where all 3 resistors are 100 Ohm, wh
 
 ![image](https://user-images.githubusercontent.com/36307725/147415303-791a9968-f479-4664-9d06-b6d3b8623760.png)
 
-  git clone https://github.com/5ch4um1/g-noobradio-sna.git
+  `git clone https://github.com/5ch4um1/g-noobradio-sna.git`
   
-  cd g-noobradio-sna/
+  `cd g-noobradio-sna/`
   
-  gnuradio-companion siggen.grc
+  `gnuradio-companion siggen.grc`
 
 How To Use The Flowgraph:
 
@@ -28,22 +28,20 @@ Change the output file name, then run it again.
 Once finished, go to https://wiki.gnuradio.org/index.php/Octave and follow the instructions there.
 
 Then in ocatve, first maybe tell it to use gnuplot:
-graphics_toolkit("gnuplot")
+`graphics_toolkit("gnuplot")`
 
 then read and plot the data:
 
-cal1=read_float_binary('cal1');
-plot(cal1);
+`cal1=read_float_binary('cal1');
+plot(cal1);`
 
 
-maybe join some of them into one array: 
+maybe join some of them into one array:
 
-cal2=read_float_binary('cal2');
-cal2=read_float_binary('cal3');
-cal4=read_float_binary('cal4');
+`cal2=read_float_binary('cal2');cal3=read_float_binary('cal3');cal4=read_float_binary('cal4');`
 
-cal_all=[cal1,cal2,cal3,cal4];
-plot(cal_all);
+`cal_all=[cal1,cal2,cal3,cal4];
+plot(cal_all);`
 
 see adorable squiggly lines: 
 
