@@ -10,7 +10,9 @@ All the tests for now with a Pi attenuator where all 3 resistors are 100 Ohm, wh
 ![image](https://user-images.githubusercontent.com/36307725/147415303-791a9968-f479-4664-9d06-b6d3b8623760.png)
 
   git clone https://github.com/5ch4um1/g-noobradio-sna.git
+  
   cd g-noobradio-sna/
+  
   gnuradio-companion siggen.grc
 
 How To Use The Flowgraph:
