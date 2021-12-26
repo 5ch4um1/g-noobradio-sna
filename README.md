@@ -47,3 +47,8 @@ see adorable squiggly lines:
 
 
 ![image](https://user-images.githubusercontent.com/36307725/147416651-2fcc676b-f7aa-4d1d-817c-f81fccfdfc1b.png)
+
+add a capacitor, see a slightly different squiggly line:
+
+![image](https://user-images.githubusercontent.com/36307725/147420517-314ea8af-9baa-4720-8a48-72b2399cf816.png)
+
