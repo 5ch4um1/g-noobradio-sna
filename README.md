@@ -9,11 +9,15 @@ All the tests for now with a Pi attenuator where all 3 resistors are 100 Ohm, wh
 
 ![image](https://user-images.githubusercontent.com/36307725/147415303-791a9968-f479-4664-9d06-b6d3b8623760.png)
 
+git clone https://github.com/5ch4um1/g-noobradio-sna.git
+cd g-noobradio-sna/
+gnuradio-companion siggen.grc
+
 How To Use The Flowgraph:
 
 Disclaimer: This seems to work on my box, if you break your rtlsdr or hackrf, please don't blame me! 
 
-Adjust the output file name and path.
+Adjust the output file name and path!
 Maybe check if the settings are ok for your setup. 
 Run it. It will stop recording after one sweep, but will start the sweep again at F1, so you'd need to stop the flowgraph manually.
 Or just keep staring at the time sink, that's ok.
