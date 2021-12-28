@@ -52,7 +52,7 @@ add a capacitor, see a slightly different squiggly line:
 
 ![image](https://user-images.githubusercontent.com/36307725/147420517-314ea8af-9baa-4720-8a48-72b2399cf816.png)
 
-play with different values of the flowgraph, lower the "average alpha" value of the log power fft to get less squiggly lines:
+play with different values of the flowgraph, lower the "average alpha" value of the log power fft to make the lines less squiggly:
 
 ![image](https://user-images.githubusercontent.com/36307725/147605519-dc5df6ec-34a9-46a8-8e12-f08f30ec1363.png)
 
